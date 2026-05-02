@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageSquare, X, Send, Bot, User, Sparkles, Loader2 } from 'lucide-react';
-import { HERO_DATA, ABOUT_DATA, SKILLS_DATA, EXPERIENCE_DATA, EDUCATION_CERTS_DATA, PROJECTS_DATA, ADDITIONAL_INFO} from '../data';
+import { HERO_DATA, ABOUT_DATA, SKILLS_DATA, EXPERIENCE_DATA, EDUCATION_CERTS_DATA, PROJECTS_DATA} from '../data';
 
 const Chatbot = () => {
     const [isOpen, setIsOpen] = useState(false);
