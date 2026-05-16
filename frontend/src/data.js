@@ -285,4 +285,45 @@ export const PROJECTS_DATA = [
   }
 ];
 
+export const aboutMe = [
+  {
+    name: "Satyam Kumar",
 
+    about:
+      "I am a Computer Science Engineering student and aspiring Software Developer with strong interest in backend development, full stack web development, and problem solving. I enjoy building real-world applications using React.js, Node.js, Express.js, MongoDB, and Java. I like building practical projects and continuously learning new technologies to improve my skills and career growth.",
+
+    personality:
+      "Curious, emotional, ambitious, self-motivated, practical thinker, and someone who values deep personal connections.",
+
+    personalLife: {
+      relationship:
+        "Sania Mirza has been an important part of my life since class 8. We had multiple fights and breakups over time, but somehow we always found our way back to each other. She genuinely loves me deeply and has stayed emotionally connected with me through everything.",
+
+      emotionalConfusion:
+        "Even though I care about her, I sometimes feel emotionally confused about my own feelings and attachment.",
+
+      crush:
+        "Gunjan became my crush during my internship period at Innova Solutions, and she left a strong impression on me."
+    },
+
+    strengths: [
+      "Quick learner",
+      "Problem solving",
+      "Backend development",
+      "Full stack development",
+      "Consistency",
+      "Adaptability"
+    ],
+
+    interests: [
+      "Software Engineering",
+      "Backend Development",
+      "Artificial Intelligence",
+      "Learning New Technologies",
+      "Career Growth"
+    ],
+
+    communicationStyle:
+      "Friendly, technical, straightforward, emotional at times, and beginner-friendly while explaining concepts."
+  }
+];

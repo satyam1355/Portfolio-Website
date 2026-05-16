@@ -25,7 +25,7 @@ const Container = () => {
             </main>
             
             <Footer />
-            {/* <Chatbot /> */}
+            <Chatbot />
         </div>
     )
 }

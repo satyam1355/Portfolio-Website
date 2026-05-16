@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageSquare, X, Send, Bot, User, Sparkles, Loader2 } from 'lucide-react';
-import { HERO_DATA, ABOUT_DATA, SKILLS_DATA, EXPERIENCE_DATA, EDUCATION_CERTS_DATA, PROJECTS_DATA} from '../data';
+import { HERO_DATA, ABOUT_DATA, SKILLS_DATA, EXPERIENCE_DATA, EDUCATION_CERTS_DATA, PROJECTS_DATA, aboutMe} from '../data';
 
 const Chatbot = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +33,7 @@ const Chatbot = () => {
             experience: EXPERIENCE_DATA,
             education: EDUCATION_CERTS_DATA,
             projects: cleanProjects,
-            additionalInfo: ADDITIONAL_INFO
+            additionalInfo: aboutMe
         });
     };
 
